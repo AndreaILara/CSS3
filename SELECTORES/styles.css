@@ -1,0 +1,41 @@
+/* button {
+  background-color: red;
+}
+.enviar {
+background-color: red;
+}
+#enviar {
+  background-color: red;
+}
+body button:first-child {
+  background-color: red;
+} */
+/* SELECCIONAR TODOS LOS DIVS */
+/* He utilizado un selector por etiqueta, es decir, modifica todas las etiquetas del documento que sean <div>  */
+div {
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+  border: 2px solid black;
+  margin: 20px;
+}
+/* normalmente, seleccionamos por etiqueta los elementos poco comunes */
+/* Los selectores por etiqueta, tienen una prioridad BAJA */
+/* CSS --> CASCADE STYLE SHEET--> HOJA DE ESTILOS EN CASCADA */
+
+/* SELECTOR POR CLASE, VA CON PUNTO ANTES DEL NOMBRE DE LA CLASE */
+/* .clase que hemos puesto a nuestra etiquets */
+/* SELECTOR POR CLASE ES MAS IMPORTANTE QUE SELECTOR POR ETIQUETA*/
+
+.selector_by_class {
+  border: 9px solid yellow;
+}
+
+/* Un selector de un elemento HTML por ID, se selecciona con # */
+/* Este selector por ID es más importante que el selector por clase, y más impotante que el selector por etiqueta */
+/* ID es identificador UNICO */
+
+#selector_by_id{
+width: 50px;
+height: 50px;
+}

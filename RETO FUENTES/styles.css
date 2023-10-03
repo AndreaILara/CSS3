@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "OpenSans";
+  src: url(./ASSETS/fonts/Open_Sans/OpenSans-Italic-VariableFont_wdth\wght.ttf)
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+p {
+  font-family: "OpenSans";
+}
+@font-face {
+  font-family: "Bergdoll";
+  src: url(./ASSETS/fonts/bergdool-cufonfonts/Bergdool-w1EmZ.ttf)
+    format(truetype);
+  font-weight: normal;
+  font-style: normal;
+}
+h1 {
+  font-family: "Bergdoll";
+}
+h2 {
+  font-family: "Bergdoll";
+}

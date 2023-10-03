@@ -1,0 +1,17 @@
+.container-one {
+  width: 50%;
+  height: 100px;
+  background-color: coral;
+  margin: 20px 10px;
+  padding: 50px;
+  overflow-x: visible;
+}
+.content {
+  width: 500px;
+}
+.container-two {
+  width: 60%;
+  height: 200px;
+  background-color: greenyellow;
+  margin: 50px 30px;
+}

@@ -1,0 +1,123 @@
+@font-face {
+  font-family: "OpenSans";
+  src: url(./ASSETS/fonts/Open_Sans/OpenSans-Italic-VariableFont_wdth\wght.ttf)
+    format(truetype);
+  font-weight: lighter;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: "OpenSans", sans-serif;
+}
+
+a {
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+header,
+nav {
+  background-color: orange;
+  height: 10vh;
+}
+
+header img {
+  width: 200px;
+  margin-top: 20px;
+}
+
+nav {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+nav > .container {
+  width: 100%;
+}
+
+nav > .container ul {
+  display: flex;
+  width: 100%;
+}
+
+nav > .container ul li {
+  padding: 20px;
+  width: 50%;
+  text-align: center;
+}
+
+nav > .container ul li:first-child {
+  background-color: rgb(32, 32, 158);
+}
+
+main > .container {
+  background-color: rgb(245, 240, 240);
+  height: 75vh;
+  justify-content: space-evenly;
+}
+
+h2 {
+  color: rgb(99, 99, 255);
+}
+
+#about {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#about > img {
+  width: 200px;
+  margin: 10px;
+}
+
+#about > p {
+  text-align: center;
+}
+
+#skills {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#skills > ul {
+  display: flex;
+}
+
+#skills > ul li {
+  background-color: orange;
+  color: white;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+}
+
+footer {
+  height: 5vh;
+  background-color: rgb(99, 99, 255);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  color: white;
+}

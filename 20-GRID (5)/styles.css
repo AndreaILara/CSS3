@@ -1,0 +1,6 @@
+.container{
+  display: grid;
+  background-color: black;
+  grid-template-columns: repeat (auto-fill, minmax(22em,1fr));
+gap: 3em;
+}

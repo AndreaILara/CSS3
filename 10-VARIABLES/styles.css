@@ -1,0 +1,9 @@
+:root {
+  --background-color: coral;
+  --spacing-text: 2em;
+}
+
+div {
+  background-color: var(--background-color);
+  padding: var(--spacing-text);
+}

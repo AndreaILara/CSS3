@@ -1,0 +1,39 @@
+/* div {
+  width: 100px;
+  height: 100px;
+}
+
+.relative {
+  position: relative;
+  left: 100px;
+  background-color: coral;
+}
+.absolute {
+  position: absolute;
+  left: 100px;
+  background-color: yellowgreen;
+}
+.contenedor {
+  height: 1000px;
+  width: 100%;
+  background-color: chocolate;
+}
+.box-one {
+  height: 150px;
+  width: 150px;
+  background-color: skyblue;
+  position: fixed;
+  margin: 0 auto;
+  top: 100px;
+  left: 200px;
+} */
+
+nav {
+  height: 150px;
+  width: 100%;
+  background-color: skyblue;
+  position: fixed;
+  margin: 0 auto;
+  top: 0;
+}
+/* ESTO NOS SIRVE PARA FIJAR NUESTRA BARRA DE NAVEGACIÓN */
